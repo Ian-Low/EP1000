@@ -5,7 +5,7 @@
 	
 		<title>Computer Aided Design</title>
 		<link rel="stylesheet" type="text/css" href="style.css" />
-	
+		
 	</head>
 	
 	<body>
@@ -42,7 +42,7 @@
 				
 				<div id="main">
 				
-					
+
 				
 					<p><b>Introduction to Computer Aided Design</b></p>
 					
@@ -68,32 +68,65 @@
 					Creating 2 hexagons within one another and connecting the edges of both hexagons together. Followed by splitting the connected lines with the 'fillet' tool to create curved lines and drawing lines connecting 
 					them together. After that extruding the wanted sections by 10mm. <br/></p>
 					
-					<img src="Images/star01.PNG" Width="600" height="380"/><br/>
-					<img src="Images/star02.PNG" Width="600" height="380"/>
-					
 					<p>I created a 6 pointed star sketch to cut in the middle of the first model. Making it look like it has a more defined design rather than a solid piece.</p>
-					
-					<img src="Images/star03.PNG" Width="600" height="380"/><br/>
-					<img src="Images/star04.PNG" Width="600" height="380"/>
 					
 					<p>To top it off, I created 6 circles using sketch and the circular pattern option. By selecting the shape and a pivot point, the circular pattern eases the duplicating process and cleanly lines 
 					selected objects. It also allows the user to duplicate the pattern as many times as they want. After using the 'circular pattern', I lined it up with the model and cut straight through it. Thus
 					giving the finished product as shown. Also using 'fillet' to round out the edges.</p>
 					
-					<img src="Images/star05.PNG" Width="600" height="380"/><br/>
-					<img src="Images/star06.PNG" Width="600" height="380"/>
+					<div class="slideshow-container">
+
+						<div class="mySlides fade">
+						  <div class="numbertext">1 / 6</div>
+						  <img src="Images/star01.PNG" style="width:100%">
+						  <div class="textslide">Sketch</div>
+						</div>
+
+						<div class="mySlides fade">
+						  <div class="numbertext">2 / 6</div>
+						  <img src="Images/star02.PNG" style="width:100%">
+						  <div class="textslide">Extruded</div>
+						</div>
+						
+						<div class="mySlides fade">
+						  <div class="numbertext">3 / 6</div>
+						  <img src="Images/star03.PNG" style="width:100%">
+						  <div class="textslide">Extruded</div>
+						</div>
+						
+						<div class="mySlides fade">
+						  <div class="numbertext">4 / 6</div>
+						  <img src="Images/star04.PNG" style="width:100%">
+						  <div class="textslide">Extruded</div>
+						</div>
+						
+						<div class="mySlides fade">
+						  <div class="numbertext">5 / 6</div>
+						  <img src="Images/star05.PNG" style="width:100%">
+						  <div class="textslide">Extruded</div>
+						</div>
+						
+						<div class="mySlides fade">
+						  <div class="numbertext">6 / 6</div>
+						  <img src="Images/star06.PNG" style="width:100%">
+						  <div class="textslide">Extruded</div>
+						</div>
+
+						<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+						<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+					</div>			
 					
 					<p>The eggcup design is done by layering multiple circle sketches of different proportions on top one another with a significant spacing apart. After aligning said sketches,
 					the 'loft' tool is using to combine the circles making it a solid object.</p>
 					
-					<img src="Images/egg01.PNG" Width="600" height="380"/><br/>
-					<img src="Images/egg02.PNG" Width="600" height="380"/>
-					
 					<p>After doing the loft, I used the 'Shell' tool to hollow out the cup portion. By selecting a face and clicking on 'Shell', the user is able to specify how thick they want the cup to be.
 					I gave it a '1.5mm' thickness so that it wouldn't seem to thick or to thin.</p>
 					
-					<img src="Images/egg03.PNG" Width="600" height="380"/><br/>
-					<img src="Images/egg04.PNG" Width="600" height="380"/>
+					<img src="Images/egg01.PNG" Width="500" height="380"/>
+					<img src="Images/egg02.PNG" Width="500" height="380"/>
+					<img src="Images/egg03.PNG" Width="500" height="380"/>
+					<img src="Images/egg04.PNG" Width="500" height="380"/>
 					
 					<p>Thus concludes today's learning.</p><br/>
 					
@@ -147,6 +180,64 @@
 					<p>Thus concludes today's learnings</p><br/>
 					
 					<a class="selected" href="#top">Back to Top</a>
+					
+					<p><b>22 May 2020</b></p>
+					
+					<p>For today it's all about the combine tool and what it does. Essentially it allows the user to trim / cut off unwanted pieces that are intersacting with each other or simply just want 
+					to connect different blocks into one.</p>
+					
+					<p>Starting off by creating a square sketch and adding equal sized rectangles onto each side making it look like a puzzle piece. Followed by extruding the sketch. Next, equal sized sides are created
+					with extra parts to be trimmed off with the combine tool. In the modify section is where you will be able to find the combine option. With the window for combine active, you have to set a
+					target body which is the one you want to trim and a tool body which is the one you want to use to trim. If you still want to keep the pieces after cutting, the 'Keep Tools' checkbox must be ticked.
+					
+					The process is repeated for all sides, the sides design are paralleled to each other. And ending off the same as one of the previous projects, cutting a hole through one of the sides.</p>
+					
+					<img src="Images/cutbox01.PNG" Width="500" height="380"/>
+					<img src="Images/cutbox02.PNG" Width="500" height="380"/>
+					<img src="Images/cutbox03.PNG" Width="500" height="380"/>
+					<img src="Images/cutbox04.PNG" Width="500" height="380"/>
+					<img src="Images/cutbox05.PNG" Width="500" height="380"/>
+					<img src="Images/cutbox06.PNG" Width="500" height="380"/>
+					<img src="Images/cutbox07.PNG" Width="500" height="380"/>
+					<img src="Images/cutbox08.PNG" Width="500" height="380"/>
+					
+					<p>Thus concludes todays studies.</p>
+					
+					<script>
+						
+						var slideIndex = 1;
+						showSlides(slideIndex);
+
+						function plusSlides(n) 
+						{
+							showSlides(slideIndex += n);
+						}
+
+						function currentSlide(n)
+						{
+							showSlides(slideIndex = n);
+						}
+
+						function showSlides(n) 
+						{
+							var i;
+							var slides = document.getElementsByClassName("mySlides");
+							var dots = document.getElementsByClassName("dot");
+							if (n > slides.length) {slideIndex = 1}    
+							if (n < 1) {slideIndex = slides.length}
+							
+							for (i = 0; i < slides.length; i++) 
+							{
+								slides[i].style.display = "none";  
+							}
+							for (i = 0; i < dots.length; i++) 
+							{
+								dots[i].className = dots[i].className.replace(" active", "");
+							}
+							slides[slideIndex-1].style.display = "block";  
+							dots[slideIndex-1].className += " active";
+						}
+					</script>
 				
 				</div>
 			
