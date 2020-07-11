@@ -54,8 +54,9 @@ h1
 
 #main 
 {
-	width: 1200px;
+	width: 1300px;
 	float: right;
+	background-color: #08B900;
 }
 
 #footer 
@@ -173,3 +174,15 @@ h1
 	to {opacity: 1}
 }
 /* End PIC SLIDESHOW */
+
+.row 
+{
+	clear : both
+}
+
+.column 
+{
+	width: 50%;
+	float: left;
+	color: Red;
+}

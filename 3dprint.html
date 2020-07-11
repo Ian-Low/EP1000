@@ -1,0 +1,148 @@
+<!DOCTYPE HTML>
+<html>
+
+	<head>
+	
+		<title>3D Printing</title>
+		<link rel="stylesheet" type="text/css" href="style.css" />
+	
+	</head>
+	
+	<body>
+	
+		<div id="container">
+		
+			<div id="header">
+			
+				<h1><b>Basics to 3D Printing</b></h1>
+			
+			</div>
+		
+			<div id="nav">
+				
+				<ol>
+			
+					<li><a class ="selected" href="index.html">Home</a></li>
+					<li><a class="selected" href="about.html">About</a></li>
+					<li><a class="selected" href="fablabsafety.html">Fablab Safety</a></li>
+					<li>Project Management</li>
+					<li><a class="selected" href="webdev.html">Web Development</a></li>
+					<li><a class="selected" href="cad.html">Computer Aided Design</a></li>
+					<li><a class="selected" href="eprog.html">Embedded Programming</a></li>
+					<li><a class="selected" href="lasercut.html">Computer Controlled Cutting</li>
+					<li>Final Project</li>
+					<li><a class="selected" href="contact.html">Contact</a></li>
+				
+				</ol>
+				
+			</div>
+			
+			<div id="main">
+				
+				<p>"What is 3D Printing?" It is a process in which a physical object is created from a three dimensional model. It works by heating up plastic and than layering multiple thin layers of 
+				material on top one another. When it solidifies, it will return to a hard plastic state.</p></br>
+				
+				<p>It uses PLA (PolyLactic Acid) which is made form plants rich in starchlike wheat. It is 100% biodegradable and as a bonus, it smells sweet when printing. </br>
+				<b>Printing Temperature is around 210 Celsius. Softening temperature is about 60 celsius.</b></p></br>
+				
+				<div class ="row">
+				
+					<div class="column">
+					
+						<h2>Pros</h2>
+						<ul>
+							<li>Can be painted with acrylic paints</li>
+							<li>More Environmental-friendly</li>
+							<li>Sharper Details (features, corners, surfaces)</li>
+							<li>Less Particle Emission</li>
+						</ul>
+					
+					</div>
+					
+					<div class="column">
+					
+						<h2>Cons</h2>
+						<ul>
+							<li>Can Deform because of heat (Low Melting Point)</li>
+							<li>Filament gets brittle over time due to moisture exposure</li>
+						</ul></br></br>
+					
+					</div>
+				
+				</div>
+				
+				<p><b><h3>3D Printing Jargons</h3></b></p>
+				<li>Support Structures</li>
+				<li>Overhangs</li>
+				<li>Bridging</li>
+				<li>Raft, Brim, Skirt</li>
+				<li>Infill & Infill Percentage</li>
+				<li>Resolution</li>
+				<li>File format</li></br>
+				
+				<p><b>Support Structures</b> are for giving the print a more defined form or a form in which the creator wants to achieve. Without it, the model won't have the wanted shape when it is being printed.</p>
+				<p>An <b>Overhang</b> is when any part of a print that extends outward beyond the previous layer. It does not have any direct support.</p>
+				<p><b>Bridging</b> is an extrusion of material that horizontally links 2 vertical points without any support pieces or materials.</p>
+				<p><b>Rafts</b> are used to stabilize models with small "footprints", OR to create a foundation on which to build the upper layers of your part. <b>Brims</b> are used to hold down the edges of your part
+				, which can prevent warping and help with bed adhesion. <b>Skirts</b> serve a useful purpose because they help prime your extruder and provide a smooth flow of filament.</p>
+				<p><b>Infill</b> is create inside the space of a print and it is created for structure works. Grid-like patterns, line or even honeycombs. As well as rectilinear or concentric patterns work best.</p>
+				
+				<p><h3><b>In-Fill Percentage</b></h3></p>
+				
+				<p><b>Low infill: 10 - 15%:</b></p>
+				<li>Fastest Print Time</li>
+				<li>Best used for prototyping big objects</li>
+				<p><b>Medium infill: 20 - 25%:</b></p>
+				<li>Most common method of printing</li>
+				<li>Fast print time</li>
+				<li>Recommended for finalising prototypes</li>
+				<p><b>High infill: 30 - 35%:</b></p>
+				<li>Mostly used for structure printing</li>
+				<li>Affect Large objects only</li>
+				<li>Slow Print (>3hrs)</li>
+				<li><b>Try to avoid it</b></li>
+				<p><b>50 - 100% Infill</b></p>
+				<li><b>BARRED FROM FABLAB IMMEDIATELY</b></li>
+				<li>Excruciatingly Slow</li>
+				<li>Wasting of Materials</li>
+				
+				<p>A higher density makes for a heavier and more solid print. In contrast, a lower density would provide a simpler and more lightweight result. Infill density can also affect a print's strength,
+				buoyancy, and material used.</p>
+				
+				<p><h3><b>Resolution</b></h3></p>
+				<p><b>100 Microns = 0.1 millimetres</b></br>
+				Less microns means finer and higher quality (Laso means longer print time)</p>
+				<p><b>Recommended</b></p>
+				<li>Quick prototyping: 0.2 - 0.3 mm resolution, low infill(~10)</li>
+				<li>Final Prototyping: 0.2mm, normal infill(20%)</li></br>
+				
+				<p><h2><b>File Format</b></h2></p>
+				<p><b>STL</b></p>
+				<li>STL (Stereo Lithography) is a file format native to the stereo lithography CAD software created by 3D systems.</li>
+				<li>STL files describe only the surface greometry of a three-dimensional object without any representation of colour, texture of other common CAD model attributes.</li>
+				<li>Most CAD sodtware are able to explort to STL format.</li>
+				
+				<p><b>Considerations when printing in FDM</b></p>
+				<li>It is a prototype, <b>DO NOT USE MORE THAN 20% INFILL</b></li>
+				<li>Scaling affects prints!!!!!! (eg. 1:1 scaled objects down to the millimetres, anything less than 1mm will have problem printing)</li>
+				<li>Being Realistic</li>
+				<li><b>Export</b> individual files to print, DO NOT export as a whole</li>
+				<li>Building a strong base (Enough surface area to create positive adhesion to the printer bed.) Adding RAFT will help when the base is too narrow</li>
+				<li><b>Grain Directions</b></li>
+				<li><b>Breaking of object into smaller parts to print</b></li>
+				<li>Overhangs/Holes (Anything more than 45 degree angle overhang will print as well without the use of support material)</li>
+				<li>Check your print preview in <b>Slicing Softawre</b> to makersure is good to go!</li></br>
+			
+			</div>
+			
+			<div id="footer">
+	    
+				Copyright&copy  Ian Low
+		
+			</div>
+		
+		</div>
+	
+	</body>
+
+</html>
