@@ -12,7 +12,7 @@ a
 #container 
 {
 	background-color: #5B9FA6;
-	width: 1600px;
+	width: 1800px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -54,9 +54,9 @@ h1
 
 #main 
 {
-	width: 1300px;
+	width: 1600px;
 	float: right;
-	background-color: #36B88C;
+	background-color: #36B88C; 
 }
 
 #footer 
